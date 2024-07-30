@@ -1,0 +1,693 @@
+
+/* body styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 5rem auto;
+
+}
+.containerr{
+    width: 80%;
+    margin: 5rem auto;
+}
+
+/* navbar related style */
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.nav-options{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo-text{
+    font-size: 2.1rem;
+    color: #E6533C;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #E6533C;
+    border-radius: 46px;
+    width: 80px;
+    /* height: 20px; */
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+/* nav-bar style end */
+
+/* Get body in shape related stylesh */
+
+
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+.get-btn{
+    position: absolute;
+    top: 90%;
+    display: flex;
+    text-align: center;
+    width: 180px;
+    height: 90px;
+    right: 30%;
+    background-color: rgba(213, 207, 207, 0.5);
+    border-radius: 12px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.text-number{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 20px;
+
+}
+
+
+.get-btn2{
+    border: none;
+    top: 49%;
+    padding: 20px;
+    position: absolute;
+    right: 8%;
+    width: 160px;
+    height: 60px;
+    background-color: rgba(213, 207, 207, 0.5);
+    border-radius: 12px;
+}
+
+.text-number2{
+    font-weight: 900;
+    font-size: 3rem;
+
+}
+
+.text-type2{
+    font-size: 16px;
+
+}
+
+.get-body{
+    display: flex;
+    gap: 290px;
+}
+.get-body-text{
+   width: 520px;
+   margin-top: 20px;
+}
+.get-img img{
+    width: 100%;
+    height: 580px;
+    position: relative;
+}
+.body-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+
+.wellcome-font{
+    font-size: 4.875rem;
+}
+.btn-share{
+    background-color: #E6533C;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    width: 9rem;
+    padding: 0.7rem;
+    border-radius: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-share2{
+    font-weight: 600;
+    font-size: 0.7rem;
+    width: 9rem;
+    padding: 0.7rem;
+    border-radius: 42px;
+    border: 1px solid rgb(246, 244, 241);
+    cursor: pointer;
+}
+
+/* Change Your Habits */
+
+
+.habit-wlc{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.habit-short{
+    text-align: center;
+    margin-bottom: 3.625rem;
+    line-height: 0.875rem;
+}
+.habits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.habit img{
+    border-radius: 50%;
+}
+
+.habit-img{
+    text-align: center;
+}
+.habit-title{
+    text-align: center;
+}
+.habit-discription{
+text-align: center;
+}
+.habit{
+   width: 230px;
+}
+
+
+/* Run an Extra Mile Easily */
+
+
+.run{
+width: 80%;
+background-color: rgba(213, 207, 207, 0.5);
+border-radius: 12px;
+margin: 0 auto;
+}
+.run-wlc{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.run-discrip{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.run-text{
+    width: 440px;
+    padding: 1rem;
+}
+.runs{
+    display: flex;
+    gap: 365px;
+}
+.run-logo img{
+    width: 336px;
+    padding: 1rem;
+    border-radius: 10%;
+}
+
+.btn-share3{
+    background-color: #E6533C;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+    width: 9rem;
+    border-radius: 42px;
+    border: none;
+    cursor: pointer;
+
+}
+/* BMI Calculator Chart */
+
+.bmai-main{
+    height: 400px;
+    padding-top: 2rem;
+}
+
+.bmi-head-cal{
+    font-size: 1.6rem;
+}
+
+
+
+
+.share-input{
+    ackground-color: #E6533C;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+    width: 9rem;
+    border-radius: 42px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+/* .bmi-btn{
+    width: 90%;
+} */
+
+
+.gander{
+    width: 45%;
+    height: 2rem;
+    
+}
+.select{
+    height: 2.7rem;
+    width: 92%;
+    margin-top: 1rem;
+}
+
+.text1{
+    height: 2rem;
+    margin-top: 1rem;
+}
+.text2{
+    height: 2rem;
+
+}
+.text3{
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+/* bmi related stylesh */
+
+table, th,  td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+table{
+    margin-top: 3rem;
+}
+.bmi-section{
+    margin-top: 4rem;
+    background-color: rgba(213, 207, 207, 0.5);
+}
+
+.bmi-tabile {
+    display: flex;
+    width: 100%;
+    margin-left: 160px;
+    gap: 115px;
+    height: 200px;
+    margin-top: 3rem;
+}
+.bmi-tabilefrom{
+    width: 25%;
+}
+
+.bmi-input{
+    margin-top: 0rem;
+    width: 700px;
+    padding-left: 120px;
+}
+
+.bmi-all-input{
+    margin-top: 2rem;
+}
+
+.input{
+    height: 2.4rem;
+    width: 40%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.start-input{
+    width: 41.4%;
+    height: 2.6rem;
+    border-radius: 8px;
+}
+.end-inpiut{
+    margin-top: 7px;
+    width: 83.1%;
+    height: 2.7rem;
+    border-radius: 8px;
+}
+
+.bmi-input-dis{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.input-end-btn{
+    margin-top: 1rem;
+    background-color: #E6533C;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+    width: 9rem;
+    border-radius: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+/* shared style */
+.hide{
+    display: none;
+}
+
+.btn-share5{
+    display: none;
+}
+
+.btn-share5{
+    background-color: #E6533C;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.7rem;
+    width: 9rem;
+    border-radius: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+.bmi-chart{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.bmi-txt{
+    margin-bottom: 1rem;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Meet Our Team */
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.cird img{
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+    filter: brightness(70%);
+}
+.tim-title{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.time-discription{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.our-tim{
+    margin-top: 9rem;
+}
+
+.cird{
+    position: relative;
+}
+.name{
+    position: absolute;
+    color: white;
+    font-size: 1.7rem;
+    left: 3%;
+    top: 70%;
+    font-weight: bold;
+}
+.title{
+    position: absolute;
+    color: rgb(206, 197, 202);
+    font-size: 1rem;
+    top: 85%;
+    left: 3%;
+    font-weight: bold;
+}
+
+/* <!-- my-inspratcion --> */
+
+
+.all-content{
+    display: flex;
+    gap: 60px;
+}
+
+.ins-wellcome-text{
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.ins-discription{
+  
+}
+/* footer related stylesh */
+footer{
+    justify-content: space-around;
+    background-color: rgba(213, 207, 207, 0.5);
+
+}
+.footer{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 340px;
+    margin: 0 auto;
+}
+.cloum{
+    justify-content: center;
+    align-self: center;
+    
+}
+.service{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.fitness{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.text{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.footer-fit{
+    margin-bottom: 1.3rem;
+    font-size: 4rem;
+    color: #E6533C;
+    cursor: pointer;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.end-text{
+    text-align: center;
+    margin-top:  1rem;
+}
+.footer2{
+    height: 80px;
+    background-color: rgba(213, 207, 207, 0.5);
+    margin-bottom: 2rem;
+}
+
+
+
+.hambarger{
+    display: none;
+}
+
+/* responsive deasign */
+/* responsive deasign */
+/* responsive deasign */
+/* responsive deasign */
+
+@media screen and (max-width: 576px) {
+
+     *{
+        margin: 0;
+     }
+    /* navbar-apply-mediaqueary */
+    .nav-options{
+        display: none;
+    }
+     
+    .hambarger{
+        display: inline;
+    }
+
+
+    /* fab icon  */
+    
+    .fa-solid{
+        font-size: 30px;
+    }
+
+    /* get-body-apply-medi-aqueary */
+    .get-body{
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0px;
+        width: 100%;
+    }
+   
+
+    .get-img{
+        padding-top: 20%;
+    }
+    .get-body-text{
+        width: 100%;
+    }
+    .get-btn{
+        top: 190%;
+        left: 10%;
+    }
+    .get-btn2{
+        top: 125%;
+    }
+
+    .btn-share{
+        display: none;
+    }
+     .btn-share2, .btn-share5{
+        width: 35%;
+        height: 50px; 
+    }
+    .btn-share2{
+        margin-left: 3%;
+    }
+    
+    .btn-share5{
+        display: inline;
+        margin-left: 13%;
+    }
+    .wellcome-font, .body-text{
+        margin-left: 2rem;
+    }
+
+    /* Change Your Habits */
+    .habits{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        margin-left: 4rem;
+    }
+    .habit, .habit-img{
+       margin-top: 5px;
+       margin-bottom: 7px;
+    }
+
+    /* runs */
+
+   
+    .runs{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .btn-share3{
+        width: 80%;
+        height: 50px;
+    }
+    .run-discrip{
+        width: 70%;
+    }
+    .run-logo{
+        padding: 0%;
+        padding-right: 25%;
+    }
+
+        /* BMI RESPONSIVE */
+       
+        
+        .bmi-tabile{
+            flex-direction: column;
+            margin-left: 100px;
+        }
+        .bmi-input{
+           width: auto;
+           padding: 10px;
+        }
+        .bmi-tabilefrom{
+            width: 100%;
+        }
+        table{
+            height: 200px;
+            width: 300px;
+
+        }
+
+       .bmai-main{
+        background: none;
+       }
+
+       .input-end-btn{
+        width: 50%;
+        height: 3rem;
+       }
+      
+       .our-tim{
+        margin-top: 28rem;
+       }
+       
+      .bmi-input-dis{
+        width: 50%;
+      }
+      
+
+      
+      
+    /* Meet Our Team */
+    .row1, .row2{
+       grid-template-columns: 1fr;
+    }
+    .our-tim{
+        margin-top: 110%;
+    }
+   
+   
+
+
+     /* footer-appy-media     */
+     .footer2{
+        margin-top: 55%;
+     }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    .cloum{
+        margin-top: 2rem;
+    }
+
+
+    
+}
