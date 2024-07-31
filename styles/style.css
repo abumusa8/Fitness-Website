@@ -1,8 +1,15 @@
 
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 /* body styles */
 *{
     margin: 0;
 }
+
+/* span{
+    font-family: 'Miama', sans-serif;                            
+} */
 
 .border{
     border: 1px solid tomato;
@@ -132,6 +139,7 @@
 
 .wellcome-font{
     font-size: 4.875rem;
+    /* line-height: 8rem; */
 }
 .btn-share{
     background-color: #E6533C;
@@ -552,7 +560,6 @@ hr{
 .footer2{
     height: 80px;
     background-color: rgba(213, 207, 207, 0.5);
-    margin-bottom: 2rem;
 }
 
 
@@ -608,11 +615,13 @@ hr{
         width: 100%;
     }
     .get-btn{
-        top: 125%;
+        top: 138%;
         left: 10%;
+        position: absolute;
     }
     .get-btn2{
         top: 100%;
+        position: absolute;
     }
 
     .btn-share{
@@ -683,7 +692,7 @@ hr{
 
         .bmai-main{
             height: 700px;
-            background-color: cornflowerblue;
+            background-color: rgba(213, 207, 207, 0.5);
         }
        
         
@@ -699,7 +708,7 @@ hr{
         }
         .bmi-tabilefrom{
             width: 100%;
-            background-color: cornflowerblue;
+            /* background-color: rgba(213, 207, 207, 0.5); */
         }
 
         
@@ -773,12 +782,17 @@ hr{
      /* footer-appy-media     */
      .footer2{
         margin-top: 55%;
+        margin-bottom: 0%;
      }
     .footer{
         grid-template-columns: 1fr;
     }
     .cloum{
         margin-top: 2rem;
+    }
+
+    .fitness{
+        line-height: 1.5rem;
     }
 
 
