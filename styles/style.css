@@ -2,9 +2,11 @@
 /* body styles */
 *{
     margin: 0;
-    padding: 0;
 }
 
+.border{
+    border: 1px solid tomato;
+}
 .container{
     width: 80%;
     margin: 5rem auto;
@@ -44,7 +46,6 @@
     background-color: #E6533C;
     border-radius: 46px;
     width: 80px;
-    /* height: 20px; */
     text-align: center;
     justify-content: center;
     padding: 10px 10px 10px 10px;
@@ -248,8 +249,6 @@ margin: 0 auto;
 }
 
 
-
-
 .share-input{
     ackground-color: #E6533C;
     color: white;
@@ -262,11 +261,6 @@ margin: 0 auto;
     cursor: pointer;
     
 }
-
-
-/* .bmi-btn{
-    width: 90%;
-} */
 
 
 .gander{
@@ -321,6 +315,7 @@ table{
 .bmi-tabilefrom{
     width: 25%;
 }
+
 
 .bmi-input{
     margin-top: 0rem;
@@ -456,20 +451,59 @@ table{
 
 /* <!-- my-inspratcion --> */
 
-
-.all-content{
-    display: flex;
-    gap: 60px;
+.ins-title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.6rem;
 }
+
+.main-inspratcion{
+    display: flex;
+}
+.ins-text{
+    text-align: left;
+    margin-top: 20%;
+    
+}
+
+.ins-title{
+    margin-bottom: 70px;
+}
+.name-roman{
+    margin-top: 2rem;
+    color: green;
+}
+
+.text-comon{
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+}
+
+.color{
+ color: #E6533C;
+}
+
+.img-ins{
+   width: 40%;
+   margin-right: 20%;
+}
+.my-img{
+   height: 640px;
+}
+
+
+
+/* end-my-inspratcion */
+
+
+
 
 .ins-wellcome-text{
     text-align: center;
     font-weight: 900;
     font-size: 3rem;
 }
-.ins-discription{
-  
-}
+
 /* footer related stylesh */
 footer{
     justify-content: space-around;
@@ -527,6 +561,14 @@ hr{
     display: none;
 }
 
+.bmai-main{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
 /* responsive deasign */
 /* responsive deasign */
 /* responsive deasign */
@@ -534,9 +576,6 @@ hr{
 
 @media screen and (max-width: 576px) {
 
-     *{
-        margin: 0;
-     }
     /* navbar-apply-mediaqueary */
     .nav-options{
         display: none;
@@ -569,11 +608,11 @@ hr{
         width: 100%;
     }
     .get-btn{
-        top: 190%;
+        top: 125%;
         left: 10%;
     }
     .get-btn2{
-        top: 125%;
+        top: 100%;
     }
 
     .btn-share{
@@ -609,59 +648,89 @@ hr{
 
     /* runs */
 
+    .run-text{
+        width: 100%;
+    }
+
    
     .runs{
+        width: 100%;
         flex-direction: column;
         gap: 1rem;
     }
     .btn-share3{
-        width: 80%;
+        width: 12rem;
         height: 50px;
     }
     .run-discrip{
         width: 70%;
     }
-    .run-logo{
+  
+   
+
+    .run-logo img{
         padding: 0%;
-        padding-right: 25%;
+        width: 310px;
     }
 
         /* BMI RESPONSIVE */
+
+        .bmi-head-cal{
+            padding-left: 45px;
+            height: 3rem;
+        }
+
+
+        .bmai-main{
+            height: 700px;
+            background-color: cornflowerblue;
+        }
        
         
         .bmi-tabile{
             flex-direction: column;
-            margin-left: 100px;
+            margin: 0%;
         }
         .bmi-input{
-           width: auto;
-           padding: 10px;
+           width: 100%;
+           padding: 0%;
+           
+           
         }
         .bmi-tabilefrom{
             width: 100%;
+            background-color: cornflowerblue;
         }
+
+        
         table{
             height: 200px;
             width: 300px;
+            margin: 0 auto;
 
         }
 
-       .bmai-main{
-        background: none;
-       }
+       .bmi-tabilefrom{
+        flex-direction: column;
+        margin: 0 auto;
+        /* background-color: rgba(213, 207, 207, 0.5);      */
+     }
 
        .input-end-btn{
         width: 50%;
         height: 3rem;
        }
+
       
-       .our-tim{
-        margin-top: 28rem;
-       }
        
       .bmi-input-dis{
         width: 50%;
       }
+      
+      .bmi-all-input{
+        padding-left: 25px;
+      }
+
       
 
       
@@ -670,10 +739,34 @@ hr{
     .row1, .row2{
        grid-template-columns: 1fr;
     }
+     
     .our-tim{
-        margin-top: 110%;
+        margin-top: 0%;
     }
-   
+    /* main inspratcion styles */
+
+    .ins-text{
+        margin: 0%;
+    }
+
+    .text-comon{
+
+        font-size: 1.2rem;
+        line-height: 24px;
+    }
+
+    .main-inspratcion{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .my-img{
+        width: 350px;
+        height: 350px;
+        padding: 0%;
+        
+        
+    }
    
 
 
