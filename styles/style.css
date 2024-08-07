@@ -7,9 +7,9 @@
     margin: 0;
 }
 
-/* span{
+.span{
     font-family: 'Miama', sans-serif;                            
-} */
+}
 
 .border{
     border: 1px solid tomato;
@@ -194,6 +194,7 @@
 }
 .habit-discription{
 text-align: center;
+color: #808080;
 }
 .habit{
    width: 230px;
@@ -254,11 +255,12 @@ margin: 0 auto;
 
 .bmi-head-cal{
     font-size: 1.6rem;
+    font-weight: 800;
 }
 
 
 .share-input{
-    ackground-color: #E6533C;
+    /* background-color: #E6533C; */
     color: white;
     font-weight: 600;
     font-size: 0.7rem;
