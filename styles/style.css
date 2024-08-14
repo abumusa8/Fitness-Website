@@ -5,6 +5,7 @@
 /* body styles */
 *{
     margin: 0;
+    padding: 0;
 }
 
 .main-bg{
@@ -693,6 +694,7 @@ hr{
     
     .fa-solid{
         font-size: 30px;
+        color: white;
     }
 
     /* get-body-apply-medi-aqueary */
